@@ -8,6 +8,11 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+% Pandoc syntax highlighting
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
 $for(header-includes)$
 $header-includes$
 $endfor$
